@@ -1,0 +1,31 @@
+'''
+Iteração com Strings
+'''
+frase = 'o rato roeu a roupa do rei de roma'
+tamanho_frase = len(frase)
+
+while True:
+
+    text_usuario = input('Qual letra deseja colocar maiúscula? ').strip().lower()
+    nova_string = ''
+    contador = 0
+
+    if text_usuario.isalpha() and len(text_usuario) == 1:
+
+        while contador < tamanho_frase:
+
+            if frase[contador] == text_usuario:
+                
+                nova_string += frase[contador].upper()
+            
+            else:
+                
+                nova_string += frase[contador]
+
+            contador += 1
+
+        print(nova_string)
+
+    else:
+
+        print('Digite apenas um caracter (letra)!')

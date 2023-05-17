@@ -1,0 +1,16 @@
+'''
+Listas em Python
+fatiamento
+append, insert, pop, del, clear, extend, +
+min , max
+range
+'''
+lista = ['Avião','Bola','Cavalo','Dedo','Elefante']
+
+print(lista[1])
+print('########')
+print(lista)
+
+string = 'ABCDE'
+
+print(string[1])
