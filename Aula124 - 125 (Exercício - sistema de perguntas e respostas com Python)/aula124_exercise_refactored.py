@@ -57,7 +57,7 @@ for quest in questions:
 
             if answer != 'A' and answer != 'B' and answer != 'C' and answer != 'D':
 
-                print('ERRO: Digite a letra de uma das opções acima.')
+                print('ERRO: Enter the letter from one of the options above.')
 
             else:
 
@@ -79,7 +79,7 @@ for quest in questions:
 
         except:
 
-            print('ERRO: Digite a letra de uma das opções acima.')
+            print('ERRO: Enter the letter from one of the options above.')
 
 
 os.system('clear')
