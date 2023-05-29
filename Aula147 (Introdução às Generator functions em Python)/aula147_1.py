@@ -9,7 +9,19 @@ def generator(n=0, maximum=10):
         if n >= maximum:
             return #Não retorna nenhum valor, apenas finaliza o loop
     
-gen = generator(maximum=5000)
+def generator2(n=0, maximum=10):
+    while True:
+        print(n)
+        n += 1
+        
+        if n >= maximum:
+            return #Não retorna nenhum valor, apenas finaliza o loop
+        
+        
+gen = generator(maximum=10) # Devolve um iteravel
 
 for n in gen:
     print(n)
+
+
+gen2 = generator2(maximum=10) # Apenas imprime os valores na tela
