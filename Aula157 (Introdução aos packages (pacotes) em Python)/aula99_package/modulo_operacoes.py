@@ -1,4 +1,4 @@
-from modulo_verificacao import verificacao
+from aula99_package.modulo_verificacao import verificacao
 
 def soma(x, y):
     if verificacao(x, y):
